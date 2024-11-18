@@ -1,0 +1,27 @@
+name: Sync README to Pages Repo
+
+on:
+  push:
+    paths:
+      - "README.md"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Profile Repo
+        uses: actions/checkout@v3
+
+      - name: Clone Pages Repo
+        run: |
+          git clone https://github.com/cyberNKYX/cyberNKYX.github.io.git pages
+
+      - name: Copy README
+        run: |
+          cp README.md pages/README.md
+          cd pages
+          git config user.name "GitHub Action"
+          git config user.email "pinnipeds@outlook.com"
+          git add README.md
+          git commit -m "Sync README from Profile Repo"
+          git push
