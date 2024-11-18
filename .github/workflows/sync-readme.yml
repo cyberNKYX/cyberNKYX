@@ -20,7 +20,7 @@ jobs:
         run: |
           cp README.md pages/README.md
           cd pages
-          git config user.name "GitHub Action"
+          git config user.name "cyberNKYX"
           git config user.email "pinnipeds@outlook.com"
           git add README.md
           git commit -m "Sync README from Profile Repo"
