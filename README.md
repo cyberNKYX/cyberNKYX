@@ -28,13 +28,11 @@ Hi there! I'm **cyberNKYX**, an **indie hacker** passionate about building innov
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/thealgorithms/thealgorithms-original.svg" width="40" height="40" alt="algorithms" title="algorithms" />
 </div>
 
-
 ## 📈 GitHub Stats
 
 ![cyberNKYX's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cyberNKYX&show_icons=true&theme=radical)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cyberNKYX&layout=compact&theme=radical)
-
 
 ## 💡 Let's Connect!
 - **Twitter**: [@cyberNKYX](https://x.com/cyberNKYX)
