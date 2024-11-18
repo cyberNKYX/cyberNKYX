@@ -38,6 +38,7 @@ Hi there! I'm **cyberNKYX**, an **indie hacker** passionate about building innov
 
 ## 💡 Let's Connect!
 - **Twitter**: [@cyberNKYX](https://x.com/cyberNKYX)
+- **Patreon**: [cyberNKYX](https://www.patreon.com/cyberNKYX)
 
 ⭐ **Remember to star my repositories if you find them helpful!**  
 Together, let's build the future of technology! 🛠️
