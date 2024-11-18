@@ -24,4 +24,4 @@ jobs:
           git config user.email "pinnipeds@outlook.com"
           git add README.md
           git commit -m "Sync README from Profile Repo"
-          git push
+          git push https://$PAT@github.com/cyberNKYX/cyberNKYX.github.io.git
