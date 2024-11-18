@@ -10,18 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Profile Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Clone Pages Repo
-        run: |
-          git clone https://github.com/cyberNKYX/cyberNKYX.github.io.git pages
+        uses: actions/checkout@v4
+        with:
+          repository: "cyberNKYX/cyberNKYX.github.io"
+          ref: "main"
+          token: ${{ secrets.PAT }}
+          path: "pages"
 
       - name: Copy README
         run: |
           cp README.md pages/README.md
           cd pages
-          git config user.name "cyberNKYX"
-          git config user.email "pinnipeds@outlook.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "Sync README from Profile Repo"
-          git push https://$PAT@github.com/cyberNKYX/cyberNKYX.github.io.git
+          git push

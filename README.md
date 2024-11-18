@@ -34,7 +34,8 @@ Hi there! I'm **cyberNKYX**, an **indie hacker** passionate about building innov
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cyberNKYX&layout=compact&theme=radical)
 
-## 💡 Let's Connect!
+## 💡 Let's Connect
+
 - **Twitter**: [@cyberNKYX](https://x.com/cyberNKYX)
 - **Patreon**: [cyberNKYX](https://www.patreon.com/cyberNKYX)
 
