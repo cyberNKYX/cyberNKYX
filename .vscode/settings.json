@@ -1,0 +1,5 @@
+{
+  "files.exclude": {
+    "**/_cache": true
+  }
+}
