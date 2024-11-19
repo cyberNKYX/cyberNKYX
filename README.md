@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="/profile.png" alt="Profile logo" width="128" height="128" style="border-radius: 50%;"/>
+  <img src="/profile_512x512.png" alt="Profile logo" width="128" height="128" style="border-radius: 50%;"/>
 </div>
 
 
