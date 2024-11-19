@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "deploy": "surge . --domain cybernkyx-assets.surge.sh"
+    }
+}
