@@ -1,4 +1,8 @@
-# 👾 cyberNKYX
+
+<div align="center">
+  <img src="/profile.png" alt="Profile logo" width="128" height="128" style="border-radius: 50%;"/>
+</div>
+
 
 Hi there! I'm **cyberNKYX**, an **indie hacker** passionate about building innovative solutions in **IoT**, **SaaS**, **AI**, and **wearables**. 🚀 I enjoy crafting cutting-edge projects that combine functionality and creativity, leveraging a wide range of technologies.
 
