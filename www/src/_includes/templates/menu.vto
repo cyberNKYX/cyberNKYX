@@ -7,7 +7,22 @@
     {{ else }}
       <a class="menu-highlight" href="{{ page.url }}">{{ page.title || slug }}</a>
     {{ /if }}
+
+      {{ if social_links?.length }}
+        <ul class="menu-social-links">
+        {{ for link of social_links }}
+          <li class="menu-social-link">
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer" title="{{ link.title }}">
+              {{ link.icon |> icon }}
+            </a>
+          </li>
+        {{ /for }}
+        </ul>
+
+      {{ /if }}
   {{ /if }}
+
+
 
   {{ if alternates?.length > 1 }}  
   <ul class="menu-languages">

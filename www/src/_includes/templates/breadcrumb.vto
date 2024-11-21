@@ -1,4 +1,4 @@
-<nav>
+<nav class="breadcrumb-container">
   <ul class="breadcrumb">
     {{ for item of nav.breadcrumb(url, `lang=${lang} hide_menu!=true`) }}
       {{ if item.data.url }}
@@ -10,4 +10,12 @@
       {{ /if }}
     {{ /for }}
   </ul>
+
+  {{ if external_links }}
+  <ul class="external-links">
+    {{ for link of external_links }}
+      <li class="external-link" title="{{ link.title }}"><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.icon |> icon }}</a></li>
+    {{ /for }}
+  </ul>
+  {{ /if }}
 </nav>

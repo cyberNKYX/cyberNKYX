@@ -4,6 +4,7 @@
 /* Custom components */
 @import "css/menu.css";
 @import "css/updates.css";
+@import "css/breadcrumb.css";
 
 .container {
   min-height: 100vh;
@@ -60,7 +61,7 @@
     display: grid;
     align-content: start;
     grid-template-columns: 1fr minmax(10vw, 250px);
-    grid-template-rows: auto minmax(0, 1fr);
+    /* grid-template-rows: auto minmax(0, 1fr); */
     padding-top: 2rem;
     padding-bottom: 0;
     border-right: solid 1px var(--color-line);
